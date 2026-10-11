@@ -1,0 +1,14 @@
+# Local development profile: mvn spring-boot:run -Dspring-boot.run.profiles=dev
+spring:
+  flyway:
+    # Adds clearly marked SAMPLE data. Never enabled in production.
+    locations: classpath:db/migration,classpath:db/seed
+
+app:
+  cookie:
+    secure: false
+    same-site: Lax
+
+logging:
+  level:
+    com.niraj.portfolio: DEBUG

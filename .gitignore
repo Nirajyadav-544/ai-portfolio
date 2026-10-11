@@ -1,0 +1,44 @@
+# secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# build output
+frontend/node_modules/
+frontend/dist/
+backend/target/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+target/
+build/
+coverage/
+
+# Logs and editor files
+*.log
+.idea/
+.vscode/
+.DS_Store
+# Generated and backup files
+backend/pom.xml.backup
+frontend/src/pages/admin/Login.tsx.bak
+frontend/tsconfig.tsbuildinfo
